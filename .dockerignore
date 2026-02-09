@@ -1,0 +1,24 @@
+# Dependencies & build output
+node_modules
+dist
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Version control
+.git
+.gitignore
+
+# IDE / editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# Dev / test tooling
+.dockerignore
+Dockerfile
+*.log
+README.md
